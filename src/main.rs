@@ -9,7 +9,7 @@ use clap::Parser;
 use quick_xml::events::Event;
 use quick_xml::reader::Reader;
 
-/// CommandLine Tool to get cms biz state.
+/// Get romaji pronunciation for Japanese input (hiragana/katakana)
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
